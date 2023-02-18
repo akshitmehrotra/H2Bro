@@ -1,0 +1,67 @@
+body {
+  width: 300px;
+  height: 500px;
+  background-color: aliceblue;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 1000px;
+}
+
+#facts {
+  margin: 0 10px;
+  font-size: 22px;
+  color: blue;
+  border-radius: 8px;
+  border: 1px solid lightblue;
+  padding: 10px;
+}
+
+.logo{
+  color: blue;
+}
+
+.button-31 {
+  background-color: blue;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 70vw;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+#op{
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+.glass{
+  color: blue;
+  font-size: 18px;
+  font-weight: 800;
+}
