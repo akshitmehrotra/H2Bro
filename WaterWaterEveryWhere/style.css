@@ -55,7 +55,7 @@ body {
   opacity: .75;
 }
 
-#op{
+#counterValue{
   color: blue;
   font-size: 20px;
   font-weight: bold;
@@ -64,4 +64,21 @@ body {
   color: blue;
   font-size: 18px;
   font-weight: 800;
+}
+
+.outer-div{
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px black;
+}
+.inner-div{
+  display: flex;
+  margin: 1px;
+  border: solid 1px black;
+}
+.button{
+  cursor: pointer;
+  border: 1px gray;
+  border-radius: 2px;
+  box-shadow: bisque;
 }
