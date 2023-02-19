@@ -206,9 +206,9 @@ function Notification() {
     'what',
     {
       type: 'basic',
-      iconUrl: 'download.png',
-      title: 'Test Message',
-      message: 'You are awesome!',
+      iconUrl: 'logo.png',
+      title: 'Water Reminder!',
+      message: `It's time for you to drink some water💧`,
     },
     function () {}
   )
@@ -233,7 +233,7 @@ function resetAtMidnight() {
   }, msToMidnight)
 }
 
-window.setInterval(Notification, 10000)
+window.setInterval(Notification, 5400000)
 
 a.addEventListener('click', function () {
   chrome.tabs.create({ url: this.href })
